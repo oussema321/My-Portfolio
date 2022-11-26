@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio website of OUssema Gasdara A summary of professional experience, 
+      skills, projects details and contact information." />
+    <title>Oussema Gassara - Portfolio</title>
+
+    <!--==================== OPEN GRAPH META TAGS ===================== -->
+    <meta property="og:title" content="Oussema Gassara - Portfolio" />
+    <meta property="og:image" content="/assets/img/PwaImages/ios/512.png" />
+    <meta property="og:description" content="Portfolio website of Oussema Gassara. A summary of professional experience, 
+      skills, projects details and contact information." />
+
+    <!--==================== TWITTER META TAGS ===================== -->
+    <meta name="twitter:title" content="Oussema Gassara - Portfolio" />
+    <meta name="twitter:description" content="Portfolio website of Oussema Gassara. A summary of professional experience, 
+      skills, projects details and contact information." />
+    <meta name="twitter:image" content="/assets/img/PwaImages/ios/512.png" />
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+    <!-- ====================PWA================== -->
+    <link rel="manifest" href="manifest.json" />
+    <!-- ios support -->
+    <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/32.png" />
+    <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/72.png" />
+    <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/100.png" />
+    <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/128.png" />
+    <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/144.png" />
+    <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/152.png" />
+    <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/192.png" />
+    <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/256.png" />
+    <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/512.png" />
+    <meta name="apple-mobile-web-app-status-bar" content="#6E57E0" />
+    <meta name="theme-color" content="#6E57E0" />
+
+    <!-- ============FAVICONS============== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets//img/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicons/favicon-16x16.png" />
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicons/favicon.ico" />
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-44V9QEHL9J"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "G-44V9QEHL9J");
+    </script>
+</head>
+
+<body>
+
+    <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">
+            ❅
+        </div>
+        <div class="snowflake">
+            ❅
+        </div>
+        <div class="snowflake">
+            ❆
+        </div>
+        <div class="snowflake">
+            ❄
+        </div>
+        <div class="snowflake">
+            ❅
+        </div>
+        <div class="snowflake">
+            ❆
+        </div>
+        <div class="snowflake">
+            ❄
+        </div>
+        <div class="snowflake">
+            ❅
+        </div>
+        <div class="snowflake">
+            ❆
+        </div>
+        <div class="snowflake">
+            ❄
+        </div>
+        <div class="snowflake">
+            ❄
+        </div>
+        <div class="snowflake">
+            ❄
+        </div>
+        <div class="snowflake">
+            ❄
+        </div>
+        <div class="snowflake">
+            ❄
+        </div>
+    </div>
+    <!-- ===================== LOADER ==================== -->
+    <div id="loading">
+        <div class="loader"><span><</span><span>/></span></div>
+    </div>
+
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo noSelect">Oussema</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link noSelect active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#Qualification" class="nav__link noSelect">
+                            <i class="uil uil-briefcase-alt nav__icon"></i> Qualification
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#Skills" class="nav__link noSelect">
+                            <i class="uil uil-file-alt nav__icon"></i> Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link noSelect">
+                            <i class="uil uil-scenery nav__icon"></i> Portfolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#certif" class="nav__link noSelect">
+                            <i class="uil uil-scenery nav__icon"></i> Certifications
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close noSelect" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+
+                <div class="nav__toggle noSelect" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+
+            <div class="home__container container grid">
+                <div class="home__content grid">
+
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/oussema-gassara-46a70122b/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://github.com//oussema321
+                        " target="_blank" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                        <a href="tel:58056969" class="home__social-icon"><i class="uil uil-phone contact__icon"></i></a>
+                        <a href="mailto:oussema.gassara@enis.tn" target="_blank" class="home__social-icon"><i class="uil uil-envelope contact__icon"></i></a>
+                    </div>
+
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home__blob-img"
+                    x="0"
+                    xlink:href="assets/img/ouss.jpg"
+                  ></image>
+                </g>
+              </svg>
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I am Oussema</h1>
+                        <h3 class="home__subtitle">Computer science engineering student</h3>
+                        <p class="home__description">
+                            I am Second-Year computer science student at ENIS with a major in Data science. I have a passion for computer programming and machine learning.
+
+                        </p>
+                        <div class="about__buttons">
+                            <a download="" href="assets/pdf/ouss.pdf" class="button button--flex">
+                              Download CV<i class="uil uil-download-alt button__icon"></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#certif" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll Down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== QUALIFICATOIN ====================-->
+
+    <section class="qualification section">
+        <h2 class="section__title" id="Qualification">Qualification</h2>
+        <span class="section__subtitle">My personal journey</span>
+
+        <div class="qualification__container container">
+            <div class="qualification__tabs">
+
+                <div class="qualification__button button--flex qualification__active" data-target="#work">
+                    <i class="uil uil-graduation-cap qualification__icon"> </i> Education
+                </div>
+                <div class="qualification__button button--flex " data-target="#education">
+                    <i class="uil uil-briefcase-alt qualification__icon"> </i> Work
+                </div>
+
+            </div>
+
+            <div class="qualification__sections">
+                <!--==================== QUALIFICATOIN CONTENT 1====================-->
+                <div class="qualification__content qualification__active" data-content id="work">
+                    <!--==================== QUALIFICATOIN 1====================-->
+                    <div class="qualification__data">
+                        <div>
+                            <h3 class="qualification__title">Gremda High school of sfax</h3>
+                            <span class="qualification__subtitle"> Tunisian baccalaureate in technique with
+                                mention very good
+                                 </span>
+                            <div class="qualification__calender">
+                                <i class="uil uil-calendar-alt"></i> 2015-2019
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                    </div>
+
+                    <!--==================== QUALIFICATOIN 2====================-->
+                    <div class="qualification__data">
+                        <div></div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                        <div>
+                            <h3 class="qualification__title">Preparatory institue of engineering studies Sfas</h3>
+                            <span class="qualification__subtitle">  </span>
+                            <div class="qualification__calender">
+                                <i class="uil uil-calendar-alt"></i> 2019-2021
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== QUALIFICATOIN 3====================-->
+                    <div class="qualification__data">
+                        <div>
+                            <h3 class="qualification__title">National school of computer science (ENIS)
+                            </h3>
+                            <span class="qualification__subtitle">  </span>
+                            <div class="qualification__calender">
+                                <i class="uil uil-calendar-alt"></i>2021-2024
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <!-- <span class="qualification__line"></span> -->
+                        </div>
+                    </div>
+
+                    <!--==================== QUALIFICATOIN 4====================-->
+                    <div class="qualification__data">
+                        <div></div>
+                        <div>
+                            <!-- <span class="qualification__rounder"></span> -->
+                            <!-- <span class="qualification__line"></span> -->
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--==================== QUALIFICATOIN CONTENT 2====================-->
+                <div class="qualification__content" data-content id="education">
+                    <!--==================== QUALIFICATOIN 1====================-->
+                    <div class="qualification__data">
+                        <div>
+                            <h3 class="qualification__title">Water irrgation with reinforcement learning</h3>
+                            <span class="qualification__subtitle">
+                                 Digital resources center Sfax
+
+                </span>
+                            <div class="qualification__calender">
+                                <i class="uil uil-calendar-alt"></i> 2021-2022
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                    </div>
+
+                    <!--==================== QUALIFICATOIN 2====================-->
+                    <div class="qualification__data">
+                        <div></div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <!-- <span class="qualification__line"></span> -->
+                        </div>
+                        <div>
+                            <h3 class="qualification__title">A mobile application for olive disease classification</h3>
+                            <span class="qualification__subtitle">PFA in national school of computer science (ENIS) </span>
+                            <div class="qualification__calender">
+                                <i class="uil uil-calendar-alt"></i> 2022-2023
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== SERVICES ====================-->
+
+    <section class="services section" id="Skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle"></span>
+
+        <div class="services__container container grid">
+            <!--==================== SERVICE 1 ====================-->
+            <div class="services__content">
+                <div>
+                    <i class="uil uil-arrow services__icon"></i>
+                    <h3 class="services__title">Artificial<br />Intelligence</h3>
+                </div>
+
+                <span class="button button--flex button--small button--link services__button">
+            View Skills
+            <i class="uil uil-arrow-right button__icon"></i>
+          </span>
+
+                <div class="services__modal">
+                    <div class="services__modal-content">
+                        <h4 class="services__modal-title">Artificial<br />Intelligence</h4>
+                        <i class="uil uil-times services__modal-close"></i>
+                        <ul class="services__modal-services grid">
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p>MLP-CNN-RNN
+                                </p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p>Data Science
+                                </p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p>Computer Vision
+                                </p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p> Machine Learning</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p>Deep Learning </p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p>Reinforcement Learning</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p>Data Collection</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p>Data Visualisation</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p>Data Analytics</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!--==================== SERVICE 2 ====================-->
+            <div class="services__content">
+                <div>
+                    <i class="uil uil-briefcase-alt services__icon"> </i>
+                    <h3 class="services__title">Framework<br />Libraries</h3>
+                </div>
+
+                <span class="button button--flex button--small button--link services__button">
+            View Skills
+            <i class="uil uil-arrow-right button__icon"></i>
+          </span>
+
+                <div class="services__modal">
+                    <div class="services__modal-content">
+                        <h4 class="services__modal-title">Framework <br />Libraries</h4>
+                        <i class="uil uil-times services__modal-close"></i>
+                        <ul class="services__modal-services grid">
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p>Keras</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p>Tensorflow</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p>Matplotlib</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p>Numpy</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p>Opencv</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p>Pandas</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p>Pytorch</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p>Seaborn</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p>Scikit-learn</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--==================== SERVICE 2 ====================-->
+            <div class="services__content">
+                <div>
+                    <i class="uil uil-mobile-android services__icon"></i>
+                    <h3 class="services__title">Web/Mobile<br />Developement</h3>
+                </div>
+
+                <span class="button button--flex button--small button--link services__button">
+            View Skills
+            <i class="uil uil-arrow-right button__icon"></i>
+          </span>
+
+                <div class="services__modal">
+                    <div class="services__modal-content">
+                        <h4 class="services__modal-title">Web/Mobile<br />Developement</h4>
+                        <i class="uil uil-times services__modal-close"></i>
+                        <ul class="services__modal-services grid">
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p>Html</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p>CSS</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p>javascript</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p>Wordpress</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p>PHP</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p>Flutter</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p>Android Studio</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--==================== SERVICE 2 ====================-->
+            <div class="services__content">
+                <div>
+                    <i class="uil uil-message services__icon"></i>
+                    <h3 class="services__title">Others<br/><br/></h3>
+                </div>
+
+                <span class="button button--flex button--small button--link services__button">
+            View Skills
+            <i class="uil uil-arrow-right button__icon"></i>
+          </span>
+
+                <div class="services__modal">
+                    <div class="services__modal-content">
+                        <h4 class="services__modal-title">Others</h4>
+                        <i class="uil uil-times services__modal-close"></i>
+                        <ul class="services__modal-services grid">
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p>Git-Github-Gitlab </p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p>Docker</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p>MySQL-PLSQL</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p>Linux-Ubuntu</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== PORTFOLIO ====================-->
+
+    <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">Most recent work</span>
+
+        <div class="portfolio__container container swiper-container">
+            <div class="swiper-wrapper">
+                <!--==================== PORTFOLIO 1====================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Iris classification</h3>
+                        <p class="portfolio__description">
+                            Data cleaning, data visualization and modeling of iris dataset
+                        </p>
+                        <a href="https://github.com/oussema321/Iris_classification" target="_blank" class="button button--flex button--small portfolio__button">
+                Demo
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+                    </div>
+                </div>
+
+                <!--==================== PORTFOLIO 2====================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Object detection</h3>
+                        <p class="portfolio__description">
+                            Detectiong 8O objects using the COCO dataset and Yolo v7 as model .
+                        </p>
+                        <a href="https://github.com/oussema321/Object_detection" target="_blank" class="button button--flex button--small portfolio__button">
+                Demo
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+                    </div>
+                </div>
+
+                <!--==================== PORTFOLIO 3====================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Cat and Dog classification
+                        </h3>
+                        <p class="portfolio__description">
+                            Build a classifier using the full Cats v Dogs dataset of 25k images using Tensorflow and Keras .
+
+                        </p>
+                        <a href="https://github.com/oussema321/Cat_Dog_Classification" target="_blank" class="button button--flex button--small portfolio__button">
+                Demo
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+                    </div>
+                </div>
+
+                <!--==================== PORTFOLIO 3====================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">
+                            Horse_Human_Classification
+                        </h3>
+                        <p class="portfolio__description">
+                            Build a classifier using the full Horse v Human dataset of 25k images using Tensorflow and Keras .
+
+                        </p>
+                        <a href="https://github.com/oussema321/Horse_Human_Classification" target="_blank" class="button button--flex button--small portfolio__button">
+                Demo
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+                    </div>
+                </div>
+                <!--==================== PORTFOLIO 4====================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Flutter application</h3>
+                        <p class="portfolio__description">
+                            Flutter application of travellin
+                        </p>
+                        <a href="https://github.com/oussema321/Flutter-application" target="_blank" class="button button--flex button--small portfolio__button">
+                Demo
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+                    </div>
+                </div>
+                <!--==================== PORTFOLIO 4====================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Web application</h3>
+                        <p class="portfolio__description">
+                            Development of an application of travelling PHP , HTML ,CSS , JS , MYSQL , XAMPP , AJAX , BOOSTRAP
+                        </p>
+                        <a href="https://github.com/oussema321/Travel-web-application" target="_blank" class="button button--flex button--small portfolio__button">
+                Demo
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+                    </div>
+                </div>
+                <!--==================== PORTFOLIO 4====================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Virtual keyboard</h3>
+                        <p class="portfolio__description">
+                            Create a virtual keyboard based on Artificial intelligence using OpenCV and python
+                        </p>
+                        <a href="https://github.com/oussema321/Virtual-keyboard" target="_blank" class="button button--flex button--small portfolio__button">
+                Demo
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+                    </div>
+                </div>
+                <!--==================== PORTFOLIO 4====================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Hands distance
+                        </h3>
+                        <p class="portfolio__description">
+                            Development of a computer vision project that detect hand distance and faces using OpenCV and python
+
+                        </p>
+                        <a href="https://github.com/oussema321/Hands_distance" target="_blank" class="button button--flex button--small portfolio__button">
+                Demo
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+
+    <!--=====C E R T I F I C A T I O N S=============== SKILLS ====================-->
+
+    <section class="skills section" id="certif">
+        <h2 class="section__title">Certifications</h2>
+        <span class="section__subtitle">My tech stack</span>
+        <div class="gallery" id="gallery">
+            <div class="contain">
+                <figure class="snip1577">
+                    <img src="assets/certif/c4.png" alt="sample99" />
+                    <figcaption>
+                        <h3>Fundamentals of Reinforcement </h3>
+                        <h3>Learning</h3>
+                    </figcaption>
+                </figure>
+                <figure class="snip1577">
+                    <img src="assets/certif/c2.png" alt="sample99" />
+                    <figcaption>
+                        <h3> Sample-based Learning Methods
+                        </h3><br>
+                    </figcaption>
+                </figure>
+                <figure class="snip1577">
+                    <img src="assets/certif/c3.png" alt="sample99" />
+                    <figcaption>
+                        <h3>Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
+                        </h3>
+                    </figcaption>
+                </figure>
+                <figure class="snip1577">
+                    <img src="assets/certif/c1.png" alt="sample109" />
+                    <figcaption>
+                        <h3>Structuring Machine Learning Projects</h3>
+                        <br>
+                    </figcaption>
+                </figure>
+                <figure class="snip1577">
+                    <img src="assets/certif/c5.png" alt="sample117" />
+                    <figcaption>
+                        <h3>Analyze Datasets and Train ML Models using AutoML</h3>
+
+                    </figcaption>
+                </figure>
+                <figure class="snip1577">
+                    <img src="assets/certif/c6.png" alt="sample117" />
+                    <figcaption>
+                        <h3>Machine Learning</h3>
+                        <br>
+                    </figcaption>
+                </figure>
+                <figure class="snip1577">
+                    <img src="assets/certif/c7.png" alt="sample117" />
+                    <figcaption>
+                        <h3>Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning</h3>
+
+                    </figcaption>
+                </figure>
+                <figure class="snip1577">
+                    <img src="assets/certif/c8.png" alt="sample117" />
+                    <figcaption>
+                        <h3>AI For Everyone</h3>
+                        <br>
+                    </figcaption>
+                </figure>
+                <figure class="snip1577">
+                    <img src="assets/certif/c9.png" alt="sample117" />
+                    <figcaption>
+                        <h3> Neural Networks and Deep Learning</h3>
+                        <br>
+                    </figcaption>
+                </figure>
+                <figure class="snip1577">
+                    <img src="assets/certif/c10.png" alt="sample117" />
+                    <figcaption>
+                        <h3>Convolutional Neural Networks</h3>
+                        <br>
+                    </figcaption>
+                </figure>
+                <figure class="snip1577">
+                    <img src="assets/certif/c11.jpg" alt="sample117" />
+                    <figcaption>
+                        <h3>Computer Vision Basics</h3>
+                        <br>
+                    </figcaption>
+                </figure>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!--==================== FOOTER ====================-->
+
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Oussema</h1>
+                    <span class="footer__subtitle">Computer science engineering student</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#Qualification" class="footer__link">Qualification</a>
+                    </li>
+                    <li>
+                        <a href="#Skills" class="footer__link">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/profile.php?id=100010023936406" target="_blank" class="footer__social">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/oussemagassara/" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+
+                    <a href="https://twitter.com" target="_blank" class="footer__social">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+
+                </div>
+                <p></p>
+            </div>
+        </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="/assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+
+    <!-- ===================== SHOW/HIDE LOADER ==================== -->
+    <script>
+        window.onload = function() {
+            document.getElementById("loading").style.display = "none";
+        };
+    </script>
+
+    <!-- =====================REGISTER SERVICE WORKER================ -->
+    <script>
+        /* Demo purposes only */
+        $(".hover").mouseleave(
+            function() {
+                $(this).removeClass("hover");
+            }
+        );
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", function() {
+                navigator.serviceWorker
+                    .register("/serviceWorker.js")
+                    .then((res) => console.log("service worker registered"))
+                    .catch((err) => console.log("service worker not registered", err));
+            });
+        }
+    </script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".home__img"), {
+            max: 25,
+            speed: 200
+        });
+    </script>
+</body>
+
+</html>

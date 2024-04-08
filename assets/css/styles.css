@@ -667,67 +667,55 @@ header {
 
 
 /*==================== PORTFOLIO ====================*/
+/*==================== PORTFOLIO ====================*/
 
 .portfolio__container {
     overflow: initial;
 }
 
 .portfolio__content {
-    padding: 0 1.5rem;
+    padding: 2rem 1.5rem; /* Ajoute un espacement en haut et en bas */
+    display: flex; /* Utilisation de flexbox pour aligner les éléments horizontalement */
+    justify-content: space-between; /* Espace égal entre les éléments */
+    align-items: center; /* Centre verticalement les éléments */
 }
 
-.portfolio__img {
-    width: 265px;
-    border-radius: 0.5rem;
-    justify-self: center;
+.portfolio__data {
+    display: flex; /* Utilisation de flexbox pour aligner les éléments horizontalement */
+    justify-content: space-between; /* Espace égal entre les éléments */
+    align-items: center; /* Centre verticalement les éléments */
 }
-
+.portfolio__button-container {
+    margin-left: auto; /* Pousse le bouton vers la droite */
+}
 .portfolio__title {
-    font-size: var(--h3-font-size);
-    margin-bottom: var(--mb-0-5);
+    font-size: 1.5rem; /* Augmente la taille de la police pour les titres */
+    margin-bottom: 1rem; /* Espacement entre les titres et les descriptions */
 }
 
 .portfolio__description {
-    margin-bottom: var(--mb-0-75);
+    font-size: 1rem; /* Taille de police pour les descriptions */
+    margin-bottom: 1.5rem; /* Espacement entre les descriptions et les boutons */
 }
 
-.portfolio__button:hover .button__icon {
-    transform: translateX(0.25rem);
+.portfolio__button {
+    background-color: var(--first-color); /* Couleur de fond pour les boutons */
+    color: #fff; /* Couleur du texte pour les boutons */
+    padding: 0.75rem 1rem; /* Ajoute un espace intérieur aux boutons */
+    border-radius: 0.25rem; /* Bord arrondi pour les boutons */
+    transition: background-color 0.3s ease; /* Transition douce lors du survol */
 }
 
-.swiper-button-prev::after,
-.swiper-button-next::after {
-    content: "";
+.portfolio__button:hover {
+    background-color: var(--first-color-alt); /* Couleur de fond pour les boutons survolés */
 }
 
-.swiper-portfolio-icon {
-    font-size: 2rem;
-    color: var(--first-color);
+.button__icon {
+    margin-left: 0.5rem; /* Ajoute un espace entre le texte et l'icône */
 }
-
-.swiper-button-prev {
-    left: -0.5rem;
+.portfolio__data--fixed-width {
+    width: 1000px; /* ou toute autre largeur fixe que vous souhaitez */
 }
-
-.swiper-button-next {
-    right: -0.5rem;
-}
-
-.swiper-container-horizontal>.swiper-pagination-bullets {
-    bottom: 0.5rem;
-}
-
-.swiper-pagination-bullet-active {
-    background-color: var(--first-color);
-}
-
-.swiper-button-prev,
-.swiper-button-next,
-.swiper-pagination-bullet {
-    outline: none;
-}
-
-
 /*==================== FOOTER ====================*/
 
 .footer {

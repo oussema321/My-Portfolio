@@ -714,7 +714,7 @@ header {
     margin-left: 0.5rem; /* Ajoute un espace entre le texte et l'icône */
 }
 .portfolio__data--fixed-width {
-    width: 700px; /* ou toute autre largeur fixe que vous souhaitez */
+    width: 400px; /* ou toute autre largeur fixe que vous souhaitez */
 }
 /*==================== FOOTER ====================*/
 
